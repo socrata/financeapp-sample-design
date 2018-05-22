@@ -1,0 +1,108 @@
+/* add this for full height column content
+.equal > div[class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-bottom: 50px;
+}
+
+p{
+    padding:0px;
+    margin: 0px;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    height: 100%;
+    color: #fff;
+    padding: 20px 20px 10px;
+}
+
+.colour-1 {
+
+    background-color: #F1F1F2;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -ms-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    color: #636a71;
+}
+
+.app-admin-header{
+    background-color: #636a71;
+    color: #ffffff;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.app-header{
+    background-color: #22B479;
+    height: 60px;
+    margin-top: 46px;
+    width: 100%;
+}
+.app-header .logo{
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.app-header .logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.app-header .logo img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.banner{
+    height: 400px;
+    background-color: #333333;
+}
+
+.panel-header{}
+.panel-header .summary-title {
+    padding-top: 6rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.panel-header h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(88,88,91);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+}
+.summary-panels{
+    margin: 1rem 0 7rem;
+    padding: 2rem 0.5rem 2rem 0;
+    background-color: #F1F1F2;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -ms-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    height: 415px;
+}
+
